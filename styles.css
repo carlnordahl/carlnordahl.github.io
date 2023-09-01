@@ -387,9 +387,18 @@ li {
 .github-link {
     position: absolute;
     top: 20px;
-    right: 30px; 
+    right: 25px; 
 }
 .github-link img {
+    width: 30px;
+    height: auto;
+}
+.linkedin-link {
+    position: absolute;
+    top: 20px;
+    right: 65px;
+}
+.linkedin-link img {
     width: 30px;
     height: auto;
 }
