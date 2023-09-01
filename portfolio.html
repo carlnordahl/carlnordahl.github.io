@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+    <head>
+        <title>Carl Nordahl's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="description" content="Carl Nordahl's portfolio and CV">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carl Nordahl">
+        <link rel="icon" href="CNlogo.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="CNlogo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <div class="menu-box">
+                            <li><img src="CNlogo.ico" id="logo-image"></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="index.html">about me</a></li>
+                        </div>
+                        <div class="menu-box selected-header enlarge-on-hover">
+                            <li><a href="">portfolio</a></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="contact.html">contact</a></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="cv.html">cv</a></li>
+                        </div>
+                        <div class="menu-box">
+                            <li><img src="images/self.png" id="header-image"/></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="sidebar-nav">
+            <nav>
+                <ul>
+                    <li><a href="#rant">Rant</a></li>
+                    <li><a href="#memory">Memory</a></li>
+                    <li><a href="#carlnordahl-com">carlnordahl.com</a></li>
+                    <li><a href="#tic-tac-toe">TicTacToe</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content-container">
+            
+            <article class="section-article" id="rant">
+                <div class="text-box hidden">
+                    <h1 style="font-size: 32px;">Rant</h1>
+                    <h3 class="negative-margin">Java, FXML</h3>
+                    <p>Rant is intended as a social media platform where users can unleash their true feelings and rant 
+                        about anything and everything that bothers or amuses them at the time.
+                    </p>
+                    <p>I wrote Rant in Java. I used FXML and Scenebuilder to create the graphics of the application. 
+                        To make the server, I used the Spring framework. Lastly, I made the database in MySQLWorkbench. 
+                    </p>
+                    <p> 
+                        As of now, Rant is a local application, the server and database exists only on my computer. My reason 
+                        for making Rant was to learn how to build an application with Java, and to get some understanding of 
+                        how the interaction between a server, a database and a client works. But it is not finished. I would 
+                        like to keep working on it and eventually publishing it for people to use.
+                    </p>
+                    <div class="gallery">
+                        <div class="demo-image">
+                            <img src="images/rant-demopic.png">
+                            <div class="overlay-desc">
+                                <p>This is the login screen. The user authenticates with username and password. 
+                                    If the user does not have an account, he can open the sign up page by clicking the 
+                                    'sign up' button.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/rant-demopic2.png">
+                            <div class="overlay-desc">
+                                <p>On this page, the user uploads new 'rants'. The user is allowed 255 characters in total. 
+                                    When posted, the rant will be visible on the user's profile wall and following users' 
+                                    home page, or feed.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/rant-demopic3.png">
+                            <div class="overlay-desc">
+                                <p>This an example home page feed. Posts from followed users are displayed and they 
+                                    can be interacted with by agreeing, disagreeing and commenting. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery"> 
+                        <div>
+                            <p class="no-padding-left">I chose to have a visible menu bar on all pages of the application for
+                                increased maneuverability. The design of the application is mostly functional.
+                           </p>
+                           <p class="no-padding-left">This demovideo showcases the ease of navigating through the app. 
+                            It also shows how users can view posts, either in their feed or by searching for other users' 
+                            profiles, and how they can interact with them. 
+                       </p>
+                        </div>
+                        
+                        <div class="demo-video">
+                            <video controls>
+                                <source src="videos/rant-demovid.mov">
+                            </video>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </article>
+
+            <article class="section-article" id="memory">
+                <div class="text-box hidden">
+                    <a class="github-link"href="https://github.com/carlnordahl/Memoree"><img src="images/github-mark-white.png"></a>
+                    <h1 style="font-size: 32px;">Memoree</h1>
+                    <h3 class="negative-margin">Python</h3>
+                    <p>I made my own version of the popular card game "Memory". Memoree is a single player game 
+                        in which the user has to find and memorize matching cards by flipping them over, two at a time. 
+                        To make the game more interesting, I added difficulty levels to the game.
+                    </p>
+                    <p>Memoree is written in Python. I used the PyGame framework to make the game. At the time of making 
+                        the game, I hadn't used Python in about a year. So other than being a fun project Memoree was a 
+                        way for me to get familiar with Python again.
+                    </p>
+                    <div class="gallery">
+                        <div class="demo-image">
+                            <img src="images/memoree-demopic-1.png">
+                            <div class="overlay-desc">
+                                <p>In the main menu of the game the player can start the game and select the difficulty level. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/memoree-demopic-2.png">
+                            <div class="overlay-desc">
+                                <p>Only two cards can be revealed at the same time. When the players reveals a third card, 
+                                    the previous two are hidden again.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/memoree-demopic-3.png">
+                            <div class="overlay-desc">
+                                <p>When the player wins, a retro style animation shows. The playing cards are spelling 
+                                    'WIN'.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div>
+                            <p class="no-padding-left">
+                                Designing the game was really entertaining. I wanted it to have a retro look, which I think the thick, 
+                                black border edges of the buttons and cards portrayed. There are three animations in the game: Setting 
+                                up the board, winning and losing. The purpose of them was to make the game feel more immersive.
+                            </p>
+                            <p class="no-padding-left">
+                                This demo is played in medium difficulty, which means that the player has five minutes to win 
+                                the game. The cards' positions are randomised each new game. The game esentially works by keeping 
+                                one list of the icons on each card, and one list of each card's coordinates. When two cards are 
+                                reavealed and a third one is pressed an algorithm checks if the two revealed cards have the same 
+                                icons by getting the index of their coordinates in the coordinates list and comparing the icons 
+                                at the same indexes in the icons list. 
+                            </p>
+                        </div>
+                        <div class="demo-video">
+                            <video controls>
+                                <source src="videos/memoree-demovid-1.mov">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="section-article" id="carlnordahl-com">
+                <div class="text-box hidden">
+                    <h1 style="font-size: 32px;">carlnordahl.com</h1>
+                    <h3 class="negative-margin">HTML, CSS, JavaScript</h3>
+                    <p>carlnordahl.com is the website which you are currently visiting. It is my first website project and it 
+                        started with me wanting to learn HTML.
+                         Creating a portfolio website was the perfect project and a personal goal of mine. 
+                    </p>
+                    <p>
+                        It has been an enjoyable project. I really like web development because of the instant feedback loop. 
+                        Seeing the website taking form with every new line of code in real time is great.
+                    </p>
+                    <p>
+                        My plan is to of course keep updating carlnordahl.com. Partly by adding new project and partly by 
+                        upgrading the design and feel of the site as I get more comfortable with HTML, CSS and JavaScript.
+                    </p>
+                </div>
+            </article>
+
+            <article class="section-article" id="tic-tac-toe">
+                <div class="text-box hidden">
+                    <a class="github-link"href="https://github.com/carlnordahl/Tic-Tac-Toe"><img src="images/github-mark-white.png"></a>
+                    <h1 style="font-size: 32px;">TicTacToe</h1>
+                    <h3 class="negative-margin">Java</h3>
+                    <p>In TicTacToe, the player plays as "X" against the computer, "O". The computer will pick a random square 
+                        out of the empty squares left on the game board.
+                    </p>
+                    <p>I used Java to write TicTacToe. The graphics of the game were made using the JavaSwing framework. 
+                        I only spent one day on this project, hence why the design is very basic. 
+                    </p>
+                    <div class="gallery">
+                        <div class="demo-image">
+                            <img src="images/tictactoe-demopic3.png">
+                            <div class="overlay-desc">
+                                <p>The game's main menu. Player can start a new game, or quit.</p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/tictactoe-demopic.png">
+                            <div class="overlay-desc">
+                                <p>After the player, X, chooses a tile, the computer, O, picks a random tile 
+                                    out of the unclaimed ones. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="demo-image">
+                            <img src="images/tictactoe-demopic2.png">
+                            <div class="overlay-desc">
+                                <p>When the computer or player gets three in a row, the game is over and the player 
+                                    can choose to play again or go back to the main menu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <footer class="footer">
+            <p>Carl Nordahl</p>
+            <p class="negative-margin">2023</p>
+            <a class="github-link"href="https://github.com/carlnordahl?tab=repositories"><img src="images/github-mark-white.png"></a>
+
+            <div class="mode-switch">
+                <button id="mode-toggle"><span id="dark-active">Dark</span><span></span><span id="light-active">Light</span></button>
+            </div>
+        </footer>
+        <script src="HelloWorld.js"></script>
+    </body>
+</html>

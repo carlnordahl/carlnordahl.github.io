@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+    <head>
+        <title>Contact Carl Nordahl</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="description" content="Carl Nordahl's portfolio and CV">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carl Nordahl">
+        <link rel="icon" href="CNlogo.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="CNlogo.ico" type="image/x-icon">        
+    </head>
+    <body>
+        <header>
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <div class="menu-box">
+                            <li><img src="CNlogo.ico" id="logo-image"></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="index.html">about me</a></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="portfolio.html">portfolio</a></li>
+                        </div>
+                        <div class="menu-box selected-header enlarge-on-hover">
+                            <li><a href="">contact</a></li>
+                        </div>
+                        <div class="menu-box enlarge-on-hover">
+                            <li><a href="cv.html">cv</a></li>
+                        </div>
+                        <div class="menu-box">
+                            <li><img src="images/self.png" id="header-image"/></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content-container">
+            <div class="text-box hidden">
+                <h1>Contact Information</h1>
+                <p>If you think my work looks interesting and you want to talk more, send me an email!</p>
+                    <ul class="square-list">
+                        <li>
+                            <p>email: carl.nordahl@outlook.com</p>
+                        </li>
+                    </ul>
+            </div>
+            <div class="contact-form-box hidden">
+                <h2>Email me</h2>
+                <form action="mailto:carl.nordahl@outlook.com" method="post" enctype="text/plain">
+
+                    <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Carl Nordahl</p>
+            <p class="negative-margin">2023</p>
+            <a class="github-link"href="https://github.com/carlnordahl?tab=repositories"><img src="images/github-mark-white.png"></a>
+
+            <div class="mode-switch">
+                <button id="mode-toggle"><span id="dark-active">Dark</span><span></span><span id="light-active">Light</span></button>
+            </div>
+        </footer>
+        <script src="HelloWorld.js"></script>
+    </body>
+</html>
