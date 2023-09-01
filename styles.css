@@ -298,6 +298,7 @@ li {
     padding: 5px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    margin-bottom: 5px;
     width:fit-content;
     color: var(--bg-color);
     position: absolute;
